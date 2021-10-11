@@ -58,7 +58,7 @@ const getInfoUsuario = async( id ) => {
         return `El salario del empleado: ${ empleado } es de ${ salario }`;
         
     } catch (error) {
-        throw error;
+        throw error; // este error seria el reject del promise de cada funcion.
     }
 }
 
